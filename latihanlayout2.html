@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body bgcolor="F0F0CB"></body>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link reel="stylesheet" href="style2.css" type="text/css"></head></link>
+<style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #DEBA9D;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #2D2424;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #E0C097;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #E0C097;
+  color: rgb(240, 234, 180);
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>August Bakery</h1>
+  <p>Kalian dapat memilih kue kesukaan kalian.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Profile</a>
+  <a href="#">Galery</a>
+</div>
+
+
+  <div class="column">
+    <center><h3>Donat</h3></center>
+    <img src ="donat.jpg"
+    <p>Donat adalah penganan yang digoreng, dibuat dari adonan tepung terigu, gula, telur, dan mentega. 
+        Donat yang paling umum adalah donat berbentuk cincin dengan lubang di tengah dan donat berbentuk bundar dengan isian manis,
+        seperti selai, jelly, krim, dan custard.p..</p>
+  </div>
+  
+  <div class="column">
+    <center><h3>Pancake</h3></center>
+    <center><img src="pancake.jpg" height="150" width="280"></center>
+    <p>Panekuk adalah kue dadar yang dibuat dari terigu, telur ayam, gula dan susu. 
+        Bahan-bahan dicampur dengan air membentuk adonan kental yang digoreng di atas wajan datar yang diolesi sedikit minyak. 
+        Setelah matang, panekuk bisa dihidangkan sewaktu masih hangat atau setelah dingin. </p>
+  </div>
+  
+  <div class="column">
+    <center><h3>Pancake</h3></center>
+    <center><img src="croissant.jpg" height="150" width="280"></center>
+    <p>Kroisan yang berasal dari Prancis, dinamakan demikian karena bentuknya menyerupai bulan sabit. 
+        Menurut legenda, roti ini berasal dari Eropa untuk merayakan kemenangan pasukan Franks atas pasukan Umayyad </p>
+  </div>
+
+  
+
+</div>
+
+
+
+
+
+</body>
+</html>
